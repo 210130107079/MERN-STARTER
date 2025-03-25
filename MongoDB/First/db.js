@@ -7,7 +7,7 @@ module.exports =
 {
     connectToDb: (callback) => 
     {
-        MongoClient.connect('mongodb://localhost:27017/bookstore')
+        MongoClient.connect('MONGO COMPASS BOOKSTORE CONNECTIVITY LINK')
             .then((client)=>{
                 dbConnection = client.db()
                 return callback()

@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "id": "3fbe",
+      "title": "The 7 Habits of Highly Effective People",
+      "summary": "The 7 Habits of Highly Effective People is a self-help book that outlines seven principles for personal and professional effectiveness. The book emphasizes character ethics and focuses on habits such as being proactive, beginning with the end in mind, prioritizing important tasks, and fostering mutually beneficial relationships. Covey introduces the concept of the 'Paradigm Shift,' encouraging readers to change their perspectives to improve their effectiveness. The book concludes with the importance of continuous self-renewal to maintain long-term success.",
+      "author": "Stephen R. Covey"
+    },
+    {
+      "id": "1af6",
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "summary": "The Subtle Art of Not Giving a F*ck is a self-help book that challenges conventional positivity and encourages embracing struggles and limitations. Mark Manson emphasizes the importance of choosing what truly matters and letting go of superficial concerns. The book explores concepts like the power of saying no, accepting failure as part of growth, and finding happiness through meaningful values rather than external validation. With a blunt and humorous approach, Manson provides a fresh perspective on personal development and resilience.",
+      "author": "Mark Manson"
+    },
+    {
+      "id": "86ab",
+      "title": "Rich Dad Poor Dad",
+      "summary": "Rich Dad Poor Dad is a personal finance book that contrasts the financial philosophies of the author's two father figures—his biological father (Poor Dad) and his best friend's father (Rich Dad). The book emphasizes financial education, investing, and entrepreneurship, advocating for building assets rather than relying on traditional employment. Kiyosaki highlights key concepts such as the importance of passive income, financial independence, and breaking free from the 'rat race.' Through storytelling and practical lessons, the book challenges conventional views on wealth and financial success.",
+      "author": "Robert T. Kiyosaki"
+    }
+  ]
+}

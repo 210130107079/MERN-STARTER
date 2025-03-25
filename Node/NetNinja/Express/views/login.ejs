@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | <%= title %> </title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #6200ea, #03dac6);
+        }
+        .login-container {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 350px;
+            text-align: center;
+        }
+        .login-container h2 {
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #000;
+            font-family: 'Roboto', sans-serif;
+        }
+        .login-container p {
+            margin-bottom: 1.5rem;
+            color: #666;
+            font-size: 14px;
+        }
+        .input-group {
+            position: relative;
+            margin-bottom: 1rem;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 12px 40px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+            transition: 0.3s;
+        }
+        .input-group input:focus {
+            border-color: #6200ea;
+            box-shadow: 0 0 5px rgba(98, 0, 234, 0.5);
+        }
+        .input-group i {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #888;
+        }
+        .login-btn {
+            width: 100%;
+            padding: 12px;
+            background: #0366d6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+        .login-btn:hover {
+            background: #024ea2;
+        }
+        .forgot-password {
+            color: #0366d6;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+        .remember-me {
+            display: flex;
+            align-items: center;
+        }
+        .remember-me input {
+            margin-right: 8px;
+        }
+        .divider {
+            margin: 20px 0;
+            text-align: center;
+            color: #999;
+            font-size: 14px;
+        }
+        .github-btn {
+            width: 100%;
+            padding: 12px;
+            background: #24292e;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .github-btn i {
+            margin-right: 8px;
+        }
+        .github-btn:hover {
+            background: #1b1f23;
+        }
+        .signup-link {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        .signup-link a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        .signup-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Welcome Back</h2>
+        <p>Please sign in to continue</p>
+        <form>
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="text" placeholder="Email address" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" required>
+            </div>
+            <div class="input-group" style="display: flex; justify-content: space-between; align-items: center;">
+                <div class="remember-me">
+                    <input type="checkbox">
+                    <label>Remember me</label>
+                </div>
+                <a href="#" class="forgot-password">Forgot password?</a>
+            </div>
+            <button type="submit" class="login-btn">Sign in</button>
+            <div class="divider">Or continue with</div>
+            <button class="github-btn"><i class="fab fa-github"></i> GitHub</button>
+        </form>
+        <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>

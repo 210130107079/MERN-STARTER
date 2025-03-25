@@ -8,7 +8,7 @@ const PORT = 7000
 
 app.use(express.json())
 
-mongoose.connect("mongodb+srv://narutouzumakixxxhinata:naruto9898@cluster0.ypk8z.mongodb.net/bed_db?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("NOGO URL")
     .then(() => console.log('Connected to MongoDB'))
     .catch(err => console.error('Could not connect to MongoDB', err))
 
